@@ -1,0 +1,22 @@
+{
+  "name": "vhistory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lee1994522/vhistory.git"
+  },
+  "keywords": [
+    "history"
+  ],
+  "author": "leeyy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lee1994522/vhistory/issues"
+  },
+  "homepage": "https://github.com/lee1994522/vhistory#readme"
+}
