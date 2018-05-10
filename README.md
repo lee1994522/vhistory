@@ -6,7 +6,7 @@ Vhistory.js extends HTML5 History's API with a manually maintained stack of the 
 ```
 
 ## API
-###history.getStack()
+### history.getStack()
 history.getStacks returns the current stack of your history
 
 ```javascript
@@ -17,7 +17,7 @@ console.log(stack)
 });
 ```
 
-###history.backTo(target:string,nearEnd:boolean)
+### history.backTo(target:string,nearEnd:boolean)
 history.backTo receives two arguments,the first arg is the target path you want to go back,the second arg decides whether the target is at the near-end or the far-end(if you have entered the target page twice or more),default is true.
 
 ```javascript
@@ -25,10 +25,10 @@ history.backTo('/APage')
 ```
 
 
-###history.forwardTo(target:string,nearEnd:boolean)
+### history.forwardTo(target:string,nearEnd:boolean)
 The same usage but the opposite direction as history.backTo
 
-###history.getDistance(target:path,nearEnd:boolean)
+### history.getDistance(target:path,nearEnd:boolean)
 history.getDistance will return the distance between the target path and your current path.
 The default value of nearEnd is true
 
