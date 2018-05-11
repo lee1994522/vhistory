@@ -2,7 +2,7 @@
 Vhistory.js extends HTML5 History's API with a manually maintained stack of the history.It allows you to read and operate the history stack directly.
 ## Usage
 ```javascript
-<script src="/vhistory/index.js"></script>
+<script type="text/javascript" src="/vhistory/vhistory.js"></script>
 ```
 
 ## API
